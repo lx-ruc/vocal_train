@@ -1,0 +1,15 @@
+[project]
+name = "voice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "crepe>=0.0.16",
+    "fastdtw>=0.3.4",
+    "librosa>=0.11.0",
+    "matplotlib>=3.10.5",
+    "numpy<2.0",
+    "praat-parselmouth>=0.4.6",
+    "scipy>=1.15.3",
+]
