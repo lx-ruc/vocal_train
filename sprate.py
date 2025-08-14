@@ -25,6 +25,6 @@ def batch_separate_audio(input_dir, output_dir):
 if __name__ == "__main__":
     current_dir = os.path.dirname(os.path.abspath(__file__))
     batch_separate_audio(
-        os.path.join(current_dir, "sample"),
-        os.path.join(current_dir, "output")
+        os.path.join(current_dir, "alone"),
+        os.path.join(current_dir, "output_alone")
     )
